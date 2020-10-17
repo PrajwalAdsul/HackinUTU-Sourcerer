@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "hackinUTU-extension",
+  "version": "1.1.0",
+  "browser_action": {
+    "default_title": "capture contact details!",
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["js/content.js"],
+      "css": ["css/styles.css"]
+    }
+  ],
+  "permissions": ["tabs", "background", "<all_urls>", "webNavigation", "*://*/*"]
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>hackinUTU</title>
+  </head>
+  <body>
+    <div class="main">
+      <div class="loader"></div>
+      
+      <div class="container"> 
+        
+        <div class="main__title">
+          <h1>hackinUTU</h1>
+        </div>
+        <div class="search" style="margin-top: 20px;">
+          <form id="searchForm">
+            <input type="text" name="search" id="search" />
+            <button type="submit" name="filterBtn" id="btn_submit">FILTER</button>
+          </form>
+        </div>
+
+        <div class="button_division">
+          <button id="domainBtn" class="download_button" style="cursor: pointer;">Capture Domain</button>
+          <button id="downloadCSVButton" class="download_button" style="cursor: pointer;">Export in CSV</button>
+        </div>
+
+        <div class="main__info">
+          <h2 class="main__info__title" id="total">Contact <span style="display: block">Information</span></h2>
+          <hr></hr>
+  
+          <div class="main__info__item main__info__names">
+            <h3>Names: </h3>
+            <div class="main__info__names__content">
+                <ul id="main__info__names__list">
+                    
+                </ul>
+            </div>
+          </div>
+
+          <div class="main__info__item main__info__emails">
+            <h3>Emails: </h3>
+            <div class="main__info__emails__content">
+                <ul id="main__info__emails__list">
+                    
+                </ul>
+            </div>
+          </div>
+      
+          <div class="main__info__item main__info__contact">
+              <h3>Contact: </h3>
+              <div class="main__info__contact__content">
+                  <ul id="main__info__contacts__list">
+                      
+                  </ul>
+              </div>
+          </div>
+
+          <div class="main__info__item main__info__social">
+            <h3>Social: </h3>
+            <div class="main__info__social__content">
+                <ul id="main__info__socials__list">
+                    
+                </ul>
+            </div>
+        </div>
+        
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="js/popup.js"></script>
+  </body>
+</html>

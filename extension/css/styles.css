@@ -1,0 +1,182 @@
+.rainbow {
+  animation: rainbow 600ms;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+  0% {
+    color: red;
+  }
+
+  15% {
+    color: orange;
+  }
+
+  30% {
+    color: yellow;
+  }
+
+  45% {
+    color: green;
+  }
+
+  60% {
+    color: blue;
+  }
+
+  75% {
+    color: indigo;
+  }
+
+  90% {
+    color: purple;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  border: 2px solid white;
+  border-right-width: 2.5px;
+}
+
+.main {
+  background-color: #14163d;
+  color: #fff;
+  padding: 20px 20px;
+  min-width: 320px;
+  min-height: 500px;
+  display: flex;
+  position: relative;
+}
+
+.main__title {
+  margin: 0px 60px;
+}
+
+.main__title h1 {
+  color: #ee6352;
+  text-align: center;
+  margin: 0;
+  border-bottom: 1px solid #ee6352;
+  text-transform: uppercase;
+}
+
+.main__info {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.main__info__address {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.main__info__title {
+  margin-bottom: 0px;
+  margin-bottom: 1px solid #fff;
+}
+
+.main__info__names {
+  margin-top: 25px;
+}
+
+.main__info__item h3 {
+  margin-bottom: 5px;
+}
+
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.main__info__email {
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.main__info__email h3 {
+  margin: 0px;
+  margin-right: 5px;
+}
+
+.main__info__email a {
+  color: white;
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 4px solid #3498db;
+  width: 60px;
+  height: 60px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+  margin: 0px auto;
+  justify-self: center;
+  align-self: center;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  display: none;
+}
+
+#search {
+  border: 0;
+  border-bottom: 2px solid #9b9b9b;
+  outline: 0;
+  color: #fff;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+#btn_submit {
+  margin-left: 10px;
+  /* background-color: #ee6352;
+  color: #fff;
+  border: 0px;
+  outline: 0;
+  font-size: 1.1rem; */
+}
+
+.download_button {
+  outline: 0;
+  border: 0;
+  color: #fff;
+  padding: 5px 15px;
+  background-color: #316e7d;
+  width: 45%;
+}
+
+.button_division {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  margin: 20px auto;
+}
