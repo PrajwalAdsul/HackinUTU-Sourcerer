@@ -2,13 +2,14 @@ import requests
 import nlp
 import enchant
 import pymongo
+import os
 from bs4 import BeautifulSoup
 
 # load the english dictionery
 eng_dic = enchant.Dict("en_US")
 
 # connect to mongodb database
-client = pymongo.MongoClient("mongodb+srv://praj:pra@cluster0-jpt7l.mongodb.net/test?retryWrites=true&w=majority")
+client = pymongo.MongoClient(os.getenv('MONGO_ATLAS_URI'))
 db = client.get_database('sourcerer')
 contacts = db.contacts
 
