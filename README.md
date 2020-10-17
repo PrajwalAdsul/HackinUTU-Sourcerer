@@ -53,20 +53,6 @@ Atlas mongodb
 
 <br />
 
-#### Features
-Get contacts easily
-Scrap domains
-Import contacts to csv
-
-<br />
-
-### Uses
-##### Networking - Easy access to contacts
-##### Knowing the best vendor
-##### People connected to a particular organization
-
-<br />
-
 ### Directory structure
 ```
 .
@@ -113,3 +99,17 @@ Import contacts to csv
 > pip3 install -r requirements.txt 
 > python3 server.py
 ```
+
+#### Features
+Get contacts easily <br />
+Scrap domains <br />
+Import contacts to csv <br/ >
+
+<br />
+
+### Uses
+##### Networking - Easy access to contacts
+##### Knowing the best vendor
+##### People connected to a particular organization
+
+<br />
