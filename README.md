@@ -116,11 +116,10 @@ For more information refer this [Link](https://support.google.com/chrome_webstor
 
 <br />
 
-#### Features
+### Features
 Get contacts easily <br />
 Scrap domains <br />
 Import contacts to csv <br />
-
 
 ### Uses
 Networking - Easy access to contacts <br />
