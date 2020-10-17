@@ -103,17 +103,18 @@ Atlas mongodb
 #### Features
 Get contacts easily <br />
 Scrap domains <br />
-Import contacts to csv <br/ >
+Import contacts to csv <br />
 
 
 #### Running Chrome Extension
-Open your Chromium Based Browser <br />
-Go to chrome://extensions/ <br />
-Turn on the developers mode on the top right <br /> 
-Click on the Load unpacked to upload the extension directory <br />
-You can see extension uploaded into chrome <br />
-Pin the extension to toolbar which is on the right side of search bar <br />
-
+```
+Open your Chromium Based Browser 
+Go to chrome://extensions/ 
+Turn on the developers mode on the top right
+Click on the Load unpacked to upload the extension directory 
+You can see extension uploaded into chrome
+Pin the extension to toolbar which is on the right side of search bar
+```
 For more information refer this [Link](https://support.google.com/chrome_webstore/answer/2664769?hl=en)
 
 <br />
