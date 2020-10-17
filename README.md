@@ -64,3 +64,51 @@ Import contacts to csv
 ##### Networking - Easy access to contacts
 ##### Knowing the best vendor
 ##### People connected to a particular organization
+
+<br />
+
+### Directory structure
+.
+├── backend
+│   ├── domainscrap.py
+│   ├── nlp.py
+│   ├── README.md
+│   ├── requirements.txt
+│   ├── server.py
+│   └── webscrap.py
+├── extension
+│   ├── css
+│   │   └── styles.css
+│   ├── js
+│   │   ├── content.js
+│   │   └── popup.js
+│   ├── manifest.json
+│   ├── popup.html
+│   ├── README.md
+│   └── screenshot.png
+├── README.md
+└── screenshots
+    ├── extension_1.png
+    ├── extension_2.png
+    └── extension.png
+
+<br />
+
+### Running server
+
+#### Install python and pip if not installed before
+```
+> sudo apt update
+> sudo apt install python3.8
+> sudo apt install python3-pip
+
+```
+
+#### Run python flask server
+```
+> git clone https://github.com/PrajwalAdsul/HackinUTU-Sourcerer.git
+> cd HackinUTU-Sourcerer
+> cd backend
+> pip3 install -r requirements.txt 
+> python3 server.py
+```
