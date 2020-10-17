@@ -28,6 +28,8 @@ Fine tuning model
 Caching data at backend
 
 
+
+
 #### Chrome Plugin
 ###### JavaScript
 Background script and Content script
@@ -35,6 +37,8 @@ Background script and Content script
 To highlight details in webpage and display properly in pop up UI as well
 ###### Chrome API
 Chrome Tabs and Runtime API to get access to DOM content of webpage
+
+
 
 
 #### Backend
@@ -45,9 +49,15 @@ Python nltk + pyenchant
 ###### Caching
 Atlas mongodb
 
+
+
+
 #### Features
+Get contacts easily
 Scrap domains
 Import contacts to csv
+
+
 
 
 ### Uses
