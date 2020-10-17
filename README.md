@@ -19,7 +19,7 @@
 ![ext](https://github.com/PrajwalAdsul/HackinUTU-Sourcerer/blob/main/screenshots/extension.png)
 
 
-#### Idea
+### Idea
 
 Chrome Extension
 Easy + Elegant UI - Highlighting contacts
@@ -28,7 +28,7 @@ Fine tuning model
 Caching data at backend
 
 
-##### Chrome Plugin
+#### Chrome Plugin
 ###### JavaScript
 Background script and Content script
 ###### CSS
@@ -37,7 +37,7 @@ To highlight details in webpage and display properly in pop up UI as well
 Chrome Tabs and Runtime API to get access to DOM content of webpage
 
 
-##### Backend
+#### Backend
 ###### Regex
 re python library
 ###### NLP
@@ -45,12 +45,12 @@ Python nltk + pyenchant
 ###### Caching
 Atlas mongodb
 
-##### Features
+#### Features
 Scrap domains
 Import contacts to csv
 
 
-#### Uses
+### Uses
 ##### Networking - Easy access to contacts
 ##### Knowing the best vendor
 ##### People connected to a particular organization
