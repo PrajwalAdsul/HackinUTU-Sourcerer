@@ -7,15 +7,13 @@
 <br />
 
 ### Technologies used 
-##### Python
-##### JS
-##### NLTK + REGEX
-##### Web scraping
-##### Chrome API
-##### Mongo DB
+Python <br />
+JS <br />
+NLTK + REGEX <br />
+Web scraping <br />
+Chrome API <br />
+Mongo DB
 
-
-<br />
 <br />
 
 ### Plugin in action
