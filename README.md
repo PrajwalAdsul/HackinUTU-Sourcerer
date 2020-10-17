@@ -20,6 +20,9 @@
 ### Plugin in action
 ![ext](https://github.com/PrajwalAdsul/HackinUTU-Sourcerer/blob/main/screenshots/extension.png)
 
+### Highlighting contacts
+![highlight](https://github.com/PrajwalAdsul/HackinUTU-Sourcerer/blob/main/screenshots/highlight.gif)
+
 <br />
 
 ### Idea
@@ -99,29 +102,29 @@ Atlas mongodb
 > pip3 install -r requirements.txt 
 > python3 server.py
 ```
+<br />
 
+#### Running Chrome Extension
+```
+> Open your Chromium Based Browser 
+> Go to chrome://extensions/ 
+> Turn on the developers mode on the top right
+> Click on the Load unpacked to upload the extension directory 
+> You can see extension uploaded into chrome
+> Pin the extension to toolbar which is on the right side of search bar
+```
+For more information refer this [Link](https://support.google.com/chrome_webstore/answer/2664769?hl=en)
+
+<br />
 #### Features
 Get contacts easily <br />
 Scrap domains <br />
 Import contacts to csv <br />
 
 
-#### Running Chrome Extension
-```
-Open your Chromium Based Browser 
-Go to chrome://extensions/ 
-Turn on the developers mode on the top right
-Click on the Load unpacked to upload the extension directory 
-You can see extension uploaded into chrome
-Pin the extension to toolbar which is on the right side of search bar
-```
-For more information refer this [Link](https://support.google.com/chrome_webstore/answer/2664769?hl=en)
-
-<br />
-
 ### Uses
-##### Networking - Easy access to contacts
-##### Knowing the best vendor
-##### People connected to a particular organization
+Networking - Easy access to contacts <br />
+Knowing the best vendor <br />
+People connected to a particular organization <br />
 
 <br />
