@@ -68,6 +68,7 @@ Import contacts to csv
 <br />
 
 ### Directory structure
+```
 .
 ├── backend
 │   ├── domainscrap.py
@@ -91,7 +92,7 @@ Import contacts to csv
     ├── extension_1.png
     ├── extension_2.png
     └── extension.png
-
+```
 <br />
 
 ### Running server
