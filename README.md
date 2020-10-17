@@ -24,10 +24,10 @@
 
 ### Idea
 
-Chrome Extension
-Easy + Elegant UI - Highlighting contacts
-Backend Regex + NLP model to extract contact information
-Fine tuning model
+Chrome Extension <br />
+Easy + Elegant UI - Highlighting contacts <br />
+Backend Regex + NLP model to extract contact information <br />
+Fine tuning model <br />
 Caching data at backend
 
 <br />
