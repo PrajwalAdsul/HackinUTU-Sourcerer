@@ -3,15 +3,12 @@
 Tool that can be used to highlight all the contacts from a website.
 
 ## Implementation of project Sourcerer
-### Team ID - 418
-### PS ID - 46
-<br />
 
 ### Technologies used 
 Python <br />
-JS <br />
+JavaScript <br />
 NLTK + REGEX <br />
-Web scraping <br />
+Web Scraping <br />
 Chrome API <br />
 Mongo DB
 
@@ -27,7 +24,7 @@ Mongo DB
 
 ### Idea
 
-Chrome Extension <br />
+Provide a Chrome Extension <br />
 Easy + Elegant UI - Highlighting contacts <br />
 Backend Regex + NLP model to extract contact information <br />
 Fine tuning model <br />
@@ -38,11 +35,11 @@ Caching data at backend
 
 #### Chrome Plugin
 ###### JavaScript
-Background script and Content script
+Background script and Content script.
 ###### CSS
-To highlight details in webpage and display properly in pop up UI as well
+To highlight details in webpage and display properly in pop up UI as well.
 ###### Chrome API
-Chrome Tabs and Runtime API to get access to DOM content of webpage
+Chrome Tabs and Runtime API to get access to DOM content of webpage.
 
 <br />
 
